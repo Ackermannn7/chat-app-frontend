@@ -10,7 +10,7 @@ import { Button, PaperBlock } from "../../../components";
 
 import { Link } from "react-router-dom";
 const RegisterForm = () => {
-  const [isValidData, setIsValidData] = React.useState(true);
+  const [isValidData, setIsValidData] = React.useState(false);
   //   const onFinish = (values: any) => {
   //     console.log("Success:", values);
   //   };

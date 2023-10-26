@@ -9,6 +9,7 @@ function App() {
         <Route path="/signin" element={<Auth />} />
         <Route path="/signup" element={<Auth />} />
         <Route path="/signup/verify" element={<Auth />} />
+        <Route path="/me" element={<Home />} />
       </Routes>
       <Home />
     </div>
